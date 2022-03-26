@@ -26,6 +26,36 @@ html{
     overflow:hidden;
     color: white;
 }
+/*-------------------------Button Style 1----------------------------*/
+.button{
+    outline: none;
+    display: block;
+    border: solid 1px #00e676;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #00e676;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 0;
+}
+
+.button:hover,
+.button:focus{
+    background: #00e676;
+    color: #000000;
+}
+
+.button:active{
+    background: #000000;
+    color: #00e676;
+}
+
+/*-------------------------Button Style 1----------------------------*/
 /*------------------------Back To Top Button-------------------------*/
 
 #backToTop{
@@ -244,6 +274,90 @@ header a:hover{
     font-weight: bold;
 }
 /*------------------------------------------------End Navigation Bar---------------------------------------------------*/
+
+#showcase{
+    min-height: 800px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.0)), url('../images/index/header_illustrator.png') no-repeat 0 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 65%;
+    text-align: right;
+    color: #ffffff;
+}
+
+#showcase img{
+    width: 35%;
+    margin-top: 80px;
+}
+
+#showcase .title{
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #00e676;
+    letter-spacing: 5px;
+}
+
+#showcase .desc{
+    margin-top: 20px;
+    float: right;
+    width: 450px;
+}
+
+#showcase .desc-text{
+    font-size: 20px;
+}
+
+#showcase .meetus-button{
+    float: right;
+    width: 150px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 650px){
+    #showcase{
+        min-height: 420px;
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0)), url('../images/index/header_illustrator.png') no-repeat center 80px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+        text-align: center;
+    }
+
+    #showcase img{
+        display: none;
+    }
+
+    #showcase .title{
+        width: auto;
+        margin-top: 100%;
+        font-size: 30px;
+    }
+
+    #showcase .desc{
+        margin-top: 10px;
+        float: none;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #showcase .desc-text{
+        text-align: center;
+    }
+
+    #showcase .meetus-button{
+        float: none;
+        align-items: center;
+    }
+
+}
+
 /*--------------------------------------------------End Header-------------------------------------------------------*/
 
 /*--------------------------------------------------Start Fitness-------------------------------------------------------*/
@@ -381,7 +495,6 @@ header a:hover{
         min-width: 50%;
     }
 }
-    
 
 /*--------------------------------------------------End Fitness-------------------------------------------------------*/
 /*-------------------------------------------------Start NewsLetter-------------------------------------------------------*/
