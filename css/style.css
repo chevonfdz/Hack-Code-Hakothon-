@@ -1,11 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    /*box-sizing: border-box;*/
 }
 
 body{
     font-family: 'Montserrat', 'Arial', 'Helvetica', sans-serif;
     background-color: #212121;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -21,18 +26,84 @@ body{
     overflow:hidden;
     color: white;
 }
+/*------------------------Back To Top Button-------------------------*/
 
+#backToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: #212121;
+    cursor: pointer;
+    outline: none;
+    border: solid 3px #fff;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    transition-property: background-color, color;
+}
+
+#backToTop:hover,
+#backToTop:focus{
+    border-color: #00e676;
+    background-color: #000;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+/*----Back To Top Button Icon------------------*/
+#backToTop img{
+    width: 75%;
+}
+
+/*----Back To Top Button Entrance Animation----*/
+.btnEntrance{
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+}
+
+@keyframes btnEntrance{
+    from{
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/*----Back To Top Button Exit Animation-------*/
+.btnExit{
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    animation-name: btnExit;
+}
+
+@keyframes btnExit{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+}
+/*------------------------Back To Top Button-------------------------*/
 /*---------------------------------------------------Start Header------------------------------------------------------*/
 /*-----------------------------------------------Start Navigation Bar--------------------------------------------------*/
 header{
-    /*background: black;*/
+    background: #212121;
     color:#ffffff;
     height: 80px;
     position: fixed;
     top:0;
     left:0;
     width:100%;
-    border-bottom: #76ff03 1px solid;
+    border-bottom: #00e676 1px solid;
     z-index: 99;
 }
 
@@ -164,12 +235,12 @@ nav .icon-burger .line{
 }
 
 header .current a{
-    color:#76ff03;
+    color:#00e676;
     font-weight:bold;
 }
 
 header a:hover{
-    color: #76ff03;
+    color: #00e676;
     font-weight: bold;
 }
 /*------------------------------------------------End Navigation Bar---------------------------------------------------*/
@@ -238,7 +309,7 @@ header a:hover{
     font-size: 1.5rem;
     margin: 1rem 0 2rem;
     text-transform: uppercase;
-    color: #76ff03;
+    color: #00e676;
 }
 
 
@@ -255,7 +326,7 @@ header a:hover{
     font-size: .8rem;
     font-weight: 600;
     text-transform: uppercase;
-    background-image: linear-gradient(to right, #76ee05, #76ff03);
+    background-image: linear-gradient(to right, #76ee05, #00e676);
     border-radius: .8rem;
 
 }
@@ -265,28 +336,29 @@ header a:hover{
 /*-------------------------------------------------Start NewsLetter-------------------------------------------------------*/
 
 #newsletter{
-    background-color: #76ff03;
+    background-color: #00e676;
     min-height: 80px;
 }
 
 #newsletter h1{
+    text-align: center;
     font-size: 30px;
     margin-top: 25px;
-    padding-left: 65px;
+    margin-right: 20px;
+    padding-left: 20px;
     font-weight: 800;
     color: black;
     float: left;
 }
 
 #newsletter form{
-    float: right;
-    padding-right: 65px;
+    text-align: center;
     margin-top:20px;
+    float: right;
 }
 
 #newsletter input[type="text"]{
-    padding: 4px;
-    padding-left: 10px;
+    padding: 4px 4px 4px 10px;
     height: 33px;
     width: 300px;
     border-top-left-radius: 30px;
@@ -315,12 +387,83 @@ header a:hover{
 
 .newsButton:hover{
     background: #000;
-    color: #76ff03;
+    color: #00e676;
     border: solid 1px #fff;
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 1300px) {
+    #newsletter{
+        min-height: 100px;
+    }
 
+    #newsletter form{
+        text-align: center;
+        margin-top:10px;
+        float: none;
+    }
+
+    #newsletter h1{
+        font-size: 25px;
+        margin-top: 25px;
+        padding-left: 25px;
+        text-align: center;
+        float: none;
+    }
+
+    #newsletter input[type="text"]{
+        padding: 4px 4px 4px 10px;
+        height: 30px;
+        width: 250px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .newsButton{
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        text-align: center;
+        padding: 0 20px;
+        transition: all 0.3s linear;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    #newsletter{
+        min-height: 100px;
+    }
+
+    #newsletter h1{
+        font-size: 20px;
+        margin-top: 25px;
+        float: none;
+    }
+
+    #newsletter form{
+        float: none;
+        padding-right: 0;
+        margin-top:20px;
+    }
+
+    #newsletter input[type="text"]{
+        padding: 4px 4px 4px 10px;
+        height: 20px;
+        width: 250px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .newsButton{
+        height: 40px;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 0 20px;
+        transition: all 0.3s linear;
+    }
 }
 /*---------------------------------------------------End NewsLetter-----------------------------------------------------*/
 /*-------------------------------------------------Start Footer-------------------------------------------------------*/
