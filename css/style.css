@@ -24,6 +24,8 @@ header{
     color:#ffffff;
     min-height: 80px;
     position: fixed;
+    top:0;
+    left:0;
     width:100%;
     border-bottom: #76ff03 1px solid;
     z-index: 99;
