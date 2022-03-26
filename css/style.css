@@ -257,6 +257,7 @@ header a:hover{
     text-transform: uppercase;
     background-image: linear-gradient(to right, #76ee05, #76ff03);
     border-radius: .8rem;
+    text-decoration: none;
 
 }
 
