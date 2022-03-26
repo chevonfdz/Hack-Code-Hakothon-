@@ -1,0 +1,80 @@
+body{
+    font-family: 'Montserrat', 'Arial', 'Helvetica', sans-serif;
+    background-color: #212121;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    color: white;
+}
+
+.container2{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+    color: white;
+}
+
+/*---------------------------------------------------Start Header------------------------------------------------------*/
+/*-----------------------------------------------Start Navigation Bar--------------------------------------------------*/
+header{
+    background: black;
+    color:#ffffff;
+    min-height: 80px;
+    position: fixed;
+    width:100%;
+    border-bottom: #76ff03 1px solid;
+    z-index: 99;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:20px;
+}
+
+header #branding{
+    float:left;
+    width: 40%;
+}
+
+header #branding h1{
+    margin:20px 0 0 80px;
+}
+
+header #branding img{
+    width: 15%;
+    float: left;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .current a{
+    color:#76ff03;
+    font-weight:bold;
+}
+
+header a:hover{
+    color: #76ff03;
+    font-weight: bold;
+}
+/*------------------------------------------------End Navigation Bar---------------------------------------------------*/
+/*--------------------------------------------------End Header-------------------------------------------------------*/
