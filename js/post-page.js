@@ -25,11 +25,12 @@ var postId = usp.get("id");
 
 const invocation = new XMLHttpRequest();
 invocation.open('GET', 'https://befitapi.azurewebsites.net/Post/post1', true);
+invocation.setRequestHeader('Access-Control-Allow-Credentials', true)
 invocation.withCredentials = true;
 invocation.send();
 invocation.onload = () => {
     if (request.status == 200) {
-        alert(request.response);
+        console.log(request.response);
         // this.setState({ pageData: JSON.parse(request.response) });
         //this.pageData = JSON.parse(request.response);
     } else {
