@@ -56,6 +56,34 @@ html{
 }
 
 /*-------------------------Button Style 1----------------------------*/
+/*-------------------------Button Style 2----------------------------*/
+
+.button2{
+    outline: none;
+    display: block;
+    border:solid 1px transparent;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.button2:hover,
+.button2:focus{
+    border:solid 1px #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.button2:active{
+    border: solid 1px #000;
+    background: #fff;
+    color: #000;
+}
+/*-------------------------Button Style 2----------------------------*/
 /*------------------------Back To Top Button-------------------------*/
 
 #backToTop{
@@ -317,7 +345,7 @@ header a:hover{
     text-align: center;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 820px){
     #showcase{
         min-height: 420px;
         background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0)), url('../images/index/header_illustrator.png') no-repeat center 80px;

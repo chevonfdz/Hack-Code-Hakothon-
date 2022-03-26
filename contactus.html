@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BeFit | Contact Us</title>
+</head>
+<body>
+    <button id="backToTop">
+        <img src="images/index/backToTop.png" alt="backToTop">
+    </button>
+    <!-----------------------------------------------------Start Header-------------------------------------------------------->
+    <header>
+        <div class="container">
+            <div>
+                <img class="brand-logo" src="images/index/Logo.png" alt="logo">
+                <img class="brand-name" src="images/index/Befit.png" alt="logo">
+                <!--<h1>Healthy Lives</h1>-->
+            </div>
+            <nav>
+                <input id="nav-toggle" type="checkbox">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="fitness.html">Fitness</a></li>
+                    <li class="current"><a href="contactus.html">Contact Us</a></li>
+                </ul>
+                <label for="nav-toggle" class="icon-burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </label>
+            </nav>
+        </div>
+    </header>
+    <!-----------------------------------------------------End Header----------------------------------------------------------->
+    <!--------------------------------------------------Start Content-------------------------------------------------->
+    <section>
+
+        <div class="container">
+            <div id="box8">
+                <div class="box9" style="float:left">
+                    <div id="contactImg"></div>
+                </div>
+
+                <div class="box9" style="float:right">
+                    <h1>Contact US</h1>
+
+                    <div class="xbox">
+                        <div>
+                            <h2>Confirmation</h2>
+                            <div id="details" class="details"></div>
+                        </div>
+                        <div id="confirm">
+                            <table>
+                                <tr>
+                                    <td><a class="button2" id="editBtn" onclick="editIt()">Edit</a></td>
+                                    <td><a class="button2" id="sendBtn" onclick="sendIt()">Send</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="xbox">
+                        <h2>Message Sent</h2>
+                        <div class="details">Thank You!</div>
+                        <a class="button2" id="okBtn" onclick="okButton()">OK</a>
+                    </div>
+
+
+                    <form id="form" class="form" onsubmit="return validation()">
+                        <div class="field">
+                            <input type="text" placeholder="Enter Your First Name & Last Name" id="name">
+                            <div class="error"></div>
+
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Enter Your Email" id="email" class="">
+                            <div class="error"></div>
+
+                        </div>
+                        <div class="field">
+                            <select id="subject">
+                                <option value="default" disabled selected hidden>Choose subject from here...</option>
+                                <option value="Event">Event</option>
+                                <option value="Quiz">Quiz</option>
+                                <option value="Delivery">Delivery</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="error"></div>
+
+                        </div>
+                        <div class="field">
+                            <textarea id="message" placeholder="Enter Your Message Here...." class=""></textarea>
+                            <div class="error"></div>
+
+                        </div>
+                        <div class="button3">
+                            <button type="submit" id="subBt">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------------End Content--------------------------------------------------->
+    <!----------------------------------------------------------Start Footer---------------------------------------------------->
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <ul class="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="fitness.html">Fitness</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+
+        <p class="copy">
+            Team Autocode @ 2022
+        </p>
+    </footer>
+    <!-----------------------------------------------------------End Footer----------------------------------------------------->
+    <script type="text/javascript" src="js/contact-us.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

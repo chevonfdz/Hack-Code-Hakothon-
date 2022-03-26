@@ -1,0 +1,173 @@
+#box8{
+    background: #00e676;
+    min-height: 600px;
+    width: 80%;
+    margin: 10% auto 10% auto;
+    box-shadow: 4px 4px 2px rgba(0,0,0,1);
+    border-radius: 10px;
+}
+
+.box9{
+    background: transparent;
+    min-height: 600px;
+    width: 50%;
+}
+
+.box9 #contactImg{
+    min-height: 600px;
+    background: url('../images/contact-us/contact-us2.jpg') no-repeat -270px 0px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+
+.box9 h1{
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.box9 .xbox{
+    display: none;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.box9 .xbox-show{
+    display: block;
+}
+
+
+.box9 .form{
+    display: block;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.box9 .form-hide{
+    display: none;
+}
+
+.box9 .field{
+    margin-bottom: 15px;
+}
+
+.box9 .field input,
+.box9 .field select,
+.box9 textarea{
+    background: #fff;
+    width: 80%;
+    border: solid 3px #000;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+
+.box9 textarea{
+    height: 160px;
+    resize: none;
+}
+
+.box9 .button3 button[type="submit"]{
+    border: solid 3px #fff;
+    border-radius: 25px;
+    margin-top: 5px;
+    padding: 15px;
+    width: 60%;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+
+.box9 .button3 button[type="submit"]:hover{
+    border: solid 3px  #1e88e5;
+    background: #212121;
+    color: #1e88e5;
+}
+
+.box9 .button3 button[type="submit"]:active{
+    border: solid 3px #1e88e5;
+    background: #000;
+    color: #00e676;
+}
+
+.box9 .error{
+    margin-top: 2px;
+    padding: 0px;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 13%;
+    color: #f44336;
+    transition: all 0.5s ease;
+}
+
+
+.box9 .popup{
+    width: 450px;
+    min-height: 200px;
+    margin: auto;
+    border-radius: 20PX;
+    padding: 25px;
+    background: #000;
+}
+
+.box9 .popup h2{
+    margin: auto;
+    font-size: 30px;
+    color: #fff;
+}
+
+.popup .details{
+    margin: 20px 0 0;
+    /*	line-height: 170%;*/
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+.box9 #confirm{
+    min-height: 60px;
+    margin-top: 15px;
+}
+
+.box9 #confirm table{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.box9 #confirm table td{
+    padding:  0 20px;
+}
+
+.box9 #confirm a{
+    margin: auto;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.box9 .popuphide{
+    display: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 850px){
+
+}
