@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Montserrat', 'Arial', 'Helvetica', sans-serif;
     background-color: #212121;
@@ -244,6 +249,67 @@ header a:hover{
 
 
 /*--------------------------------------------------End Fitness-------------------------------------------------------*/
+/*-------------------------------------------------Start NewsLetter-------------------------------------------------------*/
+
+#newsletter{
+    background-color: #76ff03;
+    min-height: 80px;
+}
+
+#newsletter h1{
+    font-size: 30px;
+    margin-top: 25px;
+    padding-left: 65px;
+    font-weight: 800;
+    color: black;
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    padding-right: 65px;
+    margin-top:20px;
+}
+
+#newsletter input[type="text"]{
+    padding: 4px;
+    padding-left: 10px;
+    height: 33px;
+    width: 300px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#newsletter input[type="text"]:focus{
+    outline: none;
+}
+
+.newsButton{
+    height: 45px;
+    background: black;
+    font-size: 12px;
+    border: solid 1px #000;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 0 20px;
+    transition: all 0.3s linear;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.newsButton:hover{
+    background: #000;
+    color: #76ff03;
+    border: solid 1px #fff;
+}
+
+@media screen and (max-width: 990px){
+
+}
+/*---------------------------------------------------End NewsLetter-----------------------------------------------------*/
 /*-------------------------------------------------Start Footer-------------------------------------------------------*/
 footer{
     width: 100%;
