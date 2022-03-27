@@ -684,6 +684,22 @@ header a:hover{
 
 /*footer part end*/
 /*-------------------------------------------------Start NewsLetter-------------------------------------------------------*/
+.subitPost {
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    border: #00e676 2px solid;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0277bd; */
+    position: relative;
+    border-top-right-radius: 50px;
+    top: -60px;
+}
+
 .devideLayer{
     background: linear-gradient(rgba(2, 119, 189, 0.8) ,rgba(33, 33, 33,1)40%);
     min-height: 10px;
