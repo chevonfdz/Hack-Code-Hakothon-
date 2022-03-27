@@ -12,7 +12,10 @@ body{
 html{
     scroll-behavior: smooth;
 }
-
+.productwrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .container{
     width:80%;
     margin:auto;
@@ -482,7 +485,7 @@ header a:hover{
     margin: 0.9rem auto;
 }
 .product{
-    margin: 3rem;
+    margin: 25px;
     position: relative;
     box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
     border: rgba(0, 242, 255, 0.8) 1px solid;
