@@ -697,7 +697,9 @@ header a:hover{
     /* background-color: #0277bd; */
     position: relative;
     border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
     top: -60px;
+    text-decoration: none;
 }
 
 .devideLayer{
