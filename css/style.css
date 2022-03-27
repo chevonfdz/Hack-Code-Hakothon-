@@ -387,14 +387,57 @@ header a:hover{
 }
 
 /*--------------------------------------------------End Header-------------------------------------------------------*/
+/*--------------------------------------------------Start About-------------------------------------------------------*/
 
+.about-text{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #00e676;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.about-desc{
+    margin: 30px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*--------------------------------------------------End About-------------------------------------------------------*/
+/*--------------------------------------------------Start Icons-------------------------------------------------------*/
+#icons{
+    margin: 100px 0;
+    width: 100%;
+    text-align: center;
+}
+
+#icons .ico-pic{
+    width: 200px;
+}
+
+#icons #ico{
+    transition: transform .4s;
+}
+
+#icons #ico:hover{
+    transform: scale(1.2);
+}
+
+#icons .ico-text{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+/*--------------------------------------------------End Icons-------------------------------------------------------*/
 /*--------------------------------------------------Start Fitness-------------------------------------------------------*/
 .container3{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem 1.5rem;
-    padding-top: 1rem;
 }
 
 
@@ -476,7 +519,9 @@ header a:hover{
 }
 
 .readBut{
-    padding: left;
+    float: right;
+    bottom: 10px;
+    right: 10px;
 }
 
 .product-img img{
@@ -496,6 +541,7 @@ header a:hover{
     letter-spacing: 3px;
     cursor: pointer;
 }
+
 
 
 /* Media Queries */
