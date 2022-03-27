@@ -20,8 +20,14 @@
 .content-image-div {
     margin-top: 50px;
     width: 100%;
+    /* background-color: #76ff03; */
     display: flex;
     justify-content: center;
+}
+.content-image {
+    width: 60%;
+    /* width: 660px;
+    height: 425px; */
 }
 .user-details-side {
     margin-top: 120px;

@@ -16,8 +16,7 @@ $.ajax({
 
 document.title = `Healthy Lives | ${postData.mainHeading}`;
 document.getElementById("main-heading").innerHTML = postData.mainHeading;
-document.getElementById("content-image-div").innerHTML = `<img src="images/post-page/${postData.contentImageName}" alt="Content Image">`;
+document.getElementById("content-image-div").innerHTML = `<img class="content-image" src="https://befitblob.blob.core.windows.net/befitimages/${postData.contentImageName}" alt="Content Image">`;
 document.getElementById("content-body-paragraph").innerHTML = postData.contentBodyParagraph;
 document.getElementById("user-details-name").innerHTML = postData.userDetailsName;
-document.getElementById("user-details-description").innerHTML = postData.userDetailsDescription;
-document.getElementById("user-image-div").innerHTML = `<img src="images/post-page/${postData.userDetailsImageName}" alt="User Image">`;
+document.getElementById("user-image-div").innerHTML = `<img src="https://befitblob.blob.core.windows.net/befitimages/${postData.userDetailsImageName}" alt="User Image">`;
