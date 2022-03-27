@@ -27,7 +27,7 @@ html{
     color: white;
 }
 /*-------------------------Button Style 1----------------------------*/
-.button{
+.button1{
     outline: none;
     display: block;
     border: solid 1px #0277bd;
@@ -44,13 +44,13 @@ html{
     margin: 0;
 }
 
-.button:hover,
-.button:focus{
+.button1:hover,
+.button1:focus{
     background: #0277bd;
     color: #000000;
 }
 
-.button:active{
+.button1:active{
     background: #000000;
     color: #0277bd;
 }
