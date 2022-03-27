@@ -473,7 +473,7 @@ header a:hover{
 
 /* product section */
 .products{
-    padding: 5px 0;
+    padding: 2rem 0;
     width: 100%;
 }
 .products .text-light{
@@ -482,7 +482,7 @@ header a:hover{
     margin: 0.9rem auto;
 }
 .product{
-    margin: 2rem;
+    margin: 3rem;
     position: relative;
     box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
     border: rgba(0, 242, 255, 0.8) 1px solid;

@@ -1,0 +1,9 @@
+"_id": "post8",
+"Date": "",
+"MainHeading": "Prevention and Treatment",
+"Category": "recipe",
+"Description": "A workout injury can happen to anyone, no matter your experience or fitness level. Even walking can cause an injury. But you can significantly cut your risk of getting hurt by following certain workout precautions.",
+"ContentBodyParagraph": "",
+"ContentImageName": "People hurt themselves in all kinds of ways when they work out. Common workout injuries include: Muscle pull and strain Sprained ankle, Shoulder injury, Knee injuries, Shin splint, Tendinitis, Wrist sprain or dislocation,Preventing Workout, Injuries There are simple steps that can help keep you injury-free during your workout. But first, pay attention to this general rule. If you're a woman over age 55, check with your health care professional before you start an exercise program. Then you'll be sure you're healthy enough for working out. The same applies to a man over age 45 or a person with any medical condition. Here are guidelines for avoiding injuries during your workout: Warm-up and cool-down. Every workout should begin with a warm-up and end with a cool-down period. A warm-up helps your body get ready for exercise. It gradually increases your heart rate and loosens your muscles and joints. Some ways to warm up:",
+"UserDetailsName": "Chevon Fernando",
+"UserDetailsImageName": "chevon-pro-pic.jpg"

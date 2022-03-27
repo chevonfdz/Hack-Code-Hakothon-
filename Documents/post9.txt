@@ -1,0 +1,9 @@
+"_id": "post9",
+"Date": "",
+"MainHeading": "Healthy eating",
+"Category": "recipe",
+"Description": "Good nutrition is essential for the healthy growth and development of children. Children may eat much of their food each weekday in early learning services. When children eat a nutritious diet, they find it easier to learn.",
+"ContentBodyParagraph": "For the purposes of this Healthy Food and Drink Guidance – Early Learning Services (Guidance), ‘early learning services’ are defined as licensed early childhood education services, ngā kōhanga reo and certificated playgroups.This Guidance helps licensed early learning services to develop a policy to promote and provide healthy foods and drinks. Establishing and following this policy shows your commitment to improving the wellbeing of children, staff and the community. The Guidance supports early learning services to invest in wellbeing. It is about creating supportive environments for children where healthy choices are easy. This Guidance enables children to:, • access healthy foods and drinks in early learning services, • develop healthy food and drink preferences, • learn to make positive choices about foods and drinks,
+"ContentImageName": "",
+"UserDetailsName": "Chevon Fernando",
+"UserDetailsImageName": "chevon-pro-pic.jpg"
