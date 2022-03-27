@@ -10,6 +10,7 @@
     <title>BeFit | Home</title>
 </head>
 <body>
+    <div id="home"></div>
     <button id="backToTop">
         <img src="images/index/backToTop.png" alt="backToTop">
     </button>
@@ -24,9 +25,10 @@
             <nav>
                 <input id="nav-toggle" type="checkbox">
                 <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="recipes.html">Recipes</a></li>
-                    <li><a href="fitness.html">Fitness</a></li>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#fit">Fitness</a></li>
+                    <li><a href="#food">Food</a></li>
+                    <li><a href="#mhealth">Mental Health</a></li>
                     <li><a href="contactUs.html">Contact Us</a></li>
                 </ul>
                 <label for="nav-toggle" class="icon-burger">
@@ -57,7 +59,9 @@
         <div class="container">
             <div class="about">
                 <p class="about-text">About Us</p>
-                <p class="about-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <p class="about-desc">We're mostly interested in the fundamentals of human health. The first is health. It's because being physically active can help you maintain a healthy weight, lower your risk of type 2 diabetes, heart disease, and several malignancies.
+                    The second category is foods that are good for you. It's because, like vitamins, it's necessary for appropriate cell function, development, and growth. A "balanced spectral diet" for daily light hygiene to boost immunity and lower disease risk.
+                    The next point to consider is mental wellness. It's because our emotional, psychological, and social well-being are all part of our mental health. It has an impact on the way we think, feel, and act. It also influences how we deal with stress, interact with others, and make decisions.</p>
             </div>
         </div>
     </section>
@@ -67,30 +71,31 @@
         <div class="container">
             <table id="icons">
                 <tr>
-                    <td id="ico">
+                    <td class="ico">
                         <img class="ico-pic" src="images/index/food.png" alt="food">
                         <p class="ico-text">Healthy Food</p>
                     </td>
-                    <td id="ico">
+                    <td class="ico">
                         <img class="ico-pic" src="images/index/mind.png" alt="food">
                         <p class="ico-text">Mental Health</p>
                     </td>
-                    <td id="ico">
+                    <td class="ico">
                         <img class="ico-pic" src="images/index/fit.png" alt="food">
-                        <p class="ico-text">Fitness</p>
+                        <p class="ico-text">Physical Fitness</p>
                     </td>
                 </tr>
             </table>
         </div>
+        <div id="fit"></div>
     </section>
     <!------------------------------------------------End icons--------------------------------------------------->
     <!-----------------------------------------------------Start Body Foods----------------------------------------------------->
-    <section id="devideLayer">
+    <section>
+        <div class="devideLayer">
         <div class="container">
             <h1> Physical Fitness </h1>
         </div>
-    </section>
-   
+
     <div class="container">
         <div class = "products">
             <div class = "product-items">
@@ -98,7 +103,7 @@
                 <div class = "product">
                     <div class = "product-content">
                         <div class = "product-img">
-                         <img class="item_img" src="images\index\weight Loss Instagram Post.png" alt="product">
+                         <img class="item_img" src="images/index/eatWellGuid.jpg" alt="product">
                         </div>
                     </div>
                     <div class = "product-info">
@@ -120,7 +125,7 @@
                 <div class = "product">
                     <div class = "product-content">
                         <div class = "product-img">
-                         <img class="item_img" src="images\index\exerciseathome.jpg" alt="product">
+                         <img class="item_img" src="images/index/vegetablesFruits.jpg" alt="product">
                         </div>
                     </div>
                     <div class = "product-info">
@@ -141,7 +146,7 @@
                 <div class = "product">
                     <div class = "product-content">
                         <div class = "product-img">
-                         <img class="item_img" src="images\index\fitness-3.jpg" alt="product">
+                         <img class="item_img" src="images/index/fitness-3.jpg" alt="product">
                         </div>
                     </div>
                     <div class = "product-info">
@@ -158,14 +163,17 @@
             </div>
         </div>
     </div>
+        </div>
+        <div id="food"></div>
+    </section>
 
-    <section id="devideLayer">
+    <section>
+        <div class="devideLayer">
         <div class="container">
             <h1> Healthy Foods </h1>
         </div>
-    </section>
 
-       
+
     <div class="container">
         <div class = "products">
             <div class = "product-items">
@@ -173,7 +181,7 @@
                 <div class = "product">
                     <div class = "product-content">
                         <div class = "product-img">
-                         <img class="item_img" src="images\index\eatWellGuid.jpg" alt="product">
+                         <img class="item_img" src="images/index/weight Loss Instagram Post.png" alt="product">
                         </div>
                     </div>
                     <div class = "product-info">
@@ -195,7 +203,7 @@
                 <div class = "product">
                     <div class = "product-content">
                         <div class = "product-img">
-                         <img class="item_img" src="images\index\vegetablesFruits.jpg" alt="product">
+                         <img class="item_img" src="images/index/Heart-Health0.jpg" alt="product">
                         </div>
                     </div>
                     <div class = "product-info">
@@ -214,7 +222,7 @@
                 <div class = "product">
                     <div class = "product-content">
                         <div class = "product-img">
-                         <img class="item_img" src="images\index\healthyeating.jpg" alt="product">
+                         <img class="item_img" src="images/index/exerciseathome.jpg" alt="product">
                         </div>
                     </div>
                     <div class = "product-info">
@@ -222,9 +230,9 @@
                             <h2 class = "sm-title">Healthy eating</h2>
                         </div>
                     </div>
-                    <h4 class="product_name">Good nutrition is essential for the healthy growth and development of 
-                        children. Children may eat much of their food each weekday in early 
-                        learning services. When children eat a nutritious diet, they find it easier to 
+                    <h4 class="product_name">Good nutrition is essential for the healthy growth and development of
+                        children. Children may eat much of their food each weekday in early
+                        learning services. When children eat a nutritious diet, they find it easier to
                         learn. </h4>
                     <br>
                     <button class="blogPostButton readBut" >Read More</button>
@@ -234,12 +242,15 @@
             </div>
         </div>
     </div>
+        </div>
+        <div id="mhealth"></div>
+    </section>
 
-    <section id="devideLayer">
+    <section>
+        <div class="devideLayer">
         <div class="container">
             <h1> Mental Health </h1>
         </div>
-    </section>
 
 
     <div class="container">
@@ -249,7 +260,7 @@
                 <div class = "product">
                     <div class = "product-content">
                         <div class = "product-img">
-                         <img class="item_img" src="images\index\mentalHealth.jpeg" alt="product">
+                         <img class="item_img" src="images/index/weight Loss Instagram Post.png" alt="product">
                         </div>
                     </div>
                     <div class = "product-info">
@@ -268,7 +279,7 @@
                 <div class = "product">
                     <div class = "product-content">
                         <div class = "product-img">
-                         <img class="item_img" src="images\index\treatment.jpg" alt="product">
+                         <img class="item_img" src="images/index/Heart-Health0.jpg" alt="product">
                         </div>
                     </div>
                     <div class = "product-info">
@@ -287,7 +298,7 @@
                  <div class = "product">
                     <div class = "product-content">
                         <div class = "product-img">
-                         <img class="item_img" src="images\index\Heart-Health0.jpg" alt="product">
+                         <img class="item_img" src="images/index/exerciseathome.jpg" alt="product">
                         </div>
                     </div>
                     <div class = "product-info">
@@ -304,6 +315,8 @@
             </div>
         </div>
     </div>
+        </div>
+    </section>
 
     <!-----------------------------------------------------End Body Foods------------------------------------------------------->
    
