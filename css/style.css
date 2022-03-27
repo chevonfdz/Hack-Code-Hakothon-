@@ -12,7 +12,10 @@ body{
 html{
     scroll-behavior: smooth;
 }
-
+.productwrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .container{
     width:80%;
     margin:auto;
@@ -27,16 +30,16 @@ html{
     color: white;
 }
 /*-------------------------Button Style 1----------------------------*/
-.button1{
+.button{
     outline: none;
     display: block;
-    border: solid 1px #0277bd;
+    border: solid 1px #00e676;
     font-size: 18px;
     font-weight: 500;
     line-height: 1;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 30px;
-    color: #0277bd;
+    color: #00e676;
     cursor: pointer;
     transition: all 0.3s linear;
     font-family: 'Montserrat', sans-serif;
@@ -44,15 +47,15 @@ html{
     margin: 0;
 }
 
-.button1:hover,
-.button1:focus{
-    background: #0277bd;
+.button:hover,
+.button:focus{
+    background: #00e676;
     color: #000000;
 }
 
-.button1:active{
+.button:active{
     background: #000000;
-    color: #0277bd;
+    color: #00e676;
 }
 
 /*-------------------------Button Style 1----------------------------*/
@@ -390,7 +393,7 @@ header a:hover{
 /*--------------------------------------------------Start About-------------------------------------------------------*/
 
 .about-text{
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
@@ -418,11 +421,11 @@ header a:hover{
     width: 200px;
 }
 
-#icons .ico{
+#icons #ico{
     transition: transform .4s;
 }
 
-#icons .ico:hover{
+#icons #ico:hover{
     transform: scale(1.2);
 }
 
@@ -451,6 +454,7 @@ header a:hover{
     background-image: linear-gradient(to right, #76ee05, #00e676);
     border-radius: .8rem;
     text-decoration: none;
+    margin-bottom: 0.5rem;
 }
 
 .item_img{
@@ -481,7 +485,7 @@ header a:hover{
     margin: 0.9rem auto;
 }
 .product{
-    margin: 3rem;
+    margin: 25px;
     position: relative;
     box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
     border: rgba(0, 242, 255, 0.8) 1px solid;
@@ -618,99 +622,15 @@ header a:hover{
 }
 
 /*--------------------------------------------------End Fitness-------------------------------------------------------*/
-/*--------------------------------------------------Start Contact-------------------------------------------------------*/
-	
-/* Form  */
-.formText{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight:500;
-}
-.frame input[type="text"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 6px solid #5FE8B4;
-  background-color: black;
-    color: white;
-    
-}
-
-.frame input[type="text"]:focus {
-  background-color: #5FE8B4;
-}
-    
-.button{
-    background: #555555;
-    box-shadow: 0px 4px 4px #000000;
-    border: 0;
-    border-radius: 10px;
-    width: 120px;
-    font-size: 16px;
-    text-align: center;
-    padding: 10px;
-    margin: 2% 5% 0 5%;
-    font-weight: 700;
-    opacity: 0.9;
-    transition: transform 0.5s, opacity 0.5s;
-
-}
-    
-.button:hover{
-    background:#00e676;
-}
-
-@media screen and (max-width:992px){
-    
-    .aboutus, .contactinfo{
-        width: 35%;
-    }
-    .quicklinks{
-        width: 30%;
-    }
-}
-
-@media screen and (max-width:767px){
-    .aboutus, .contactinfo, .quicklinks{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .container{
-        flex-direction: column;
-    }
-}   
-
-/*footer part end*/
 /*-------------------------------------------------Start NewsLetter-------------------------------------------------------*/
-.subitPost {
-    width: 200px;
-    height: 50px;
-    color: white;
-    font-size: medium;
-    border: #00e676 2px solid;
-    border-left: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: #0277bd; */
-    position: relative;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    top: -60px;
-    text-decoration: none;
+#devideLayer{
+    background: linear-gradient(rgba(0, 242, 255, 0.8),rgba(0,0,0,0.0));
+    min-height: 80px;
 }
 
-.devideLayer{
-    background: linear-gradient(rgba(2, 119, 189, 0.8) ,rgba(33, 33, 33,1)40%);
-    min-height: 10px;
-    z-index: -1;
-}
-
-.devideLayer h1{
+#devideLayer h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 20px;
     margin-right: 20px;
     padding-left: 20px;
