@@ -30,13 +30,13 @@ html{
 .button{
     outline: none;
     display: block;
-    border: solid 1px #00e676;
+    border: solid 1px #0277bd;
     font-size: 18px;
     font-weight: 500;
     line-height: 1;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 30px;
-    color: #00e676;
+    color: #0277bd;
     cursor: pointer;
     transition: all 0.3s linear;
     font-family: 'Montserrat', sans-serif;
@@ -46,13 +46,13 @@ html{
 
 .button:hover,
 .button:focus{
-    background: #00e676;
+    background: #0277bd;
     color: #000000;
 }
 
 .button:active{
     background: #000000;
-    color: #00e676;
+    color: #0277bd;
 }
 
 /*-------------------------Button Style 1----------------------------*/
@@ -390,7 +390,7 @@ header a:hover{
 /*--------------------------------------------------Start About-------------------------------------------------------*/
 
 .about-text{
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
@@ -418,11 +418,11 @@ header a:hover{
     width: 200px;
 }
 
-#icons #ico{
+#icons .ico{
     transition: transform .4s;
 }
 
-#icons #ico:hover{
+#icons .ico:hover{
     transform: scale(1.2);
 }
 
@@ -451,7 +451,6 @@ header a:hover{
     background-image: linear-gradient(to right, #76ee05, #00e676);
     border-radius: .8rem;
     text-decoration: none;
-    margin-bottom: 0.5rem;
 }
 
 .item_img{
@@ -620,14 +619,15 @@ header a:hover{
 
 /*--------------------------------------------------End Fitness-------------------------------------------------------*/
 /*-------------------------------------------------Start NewsLetter-------------------------------------------------------*/
-#devideLayer{
-    background: linear-gradient(rgba(0, 242, 255, 0.8),rgba(0,0,0,0.0));
-    min-height: 80px;
+.devideLayer{
+    background: linear-gradient(rgba(2, 119, 189, 0.8) ,rgba(33, 33, 33,1)40%);
+    min-height: 10px;
+    z-index: -1;
 }
 
-#devideLayer h1{
+.devideLayer h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 20px;
     margin-right: 20px;
     padding-left: 20px;
